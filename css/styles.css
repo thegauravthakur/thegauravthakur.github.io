@@ -88,6 +88,14 @@ span {
   color: white;
 }
 
+.python-skill {
+  background-color: #6f4a8e;
+  width: 40%;
+  padding: 5px 0px 5px 0px;
+  text-align: right;
+  color: white;
+}
+
 .flutter-skill {
   background-color: #6f4a8e;
   width: 40%;
