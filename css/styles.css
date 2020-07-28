@@ -116,3 +116,52 @@ span {
   color: #6f4a8e;
   font-weight: bold;
 }
+
+.outer-project-div-left {
+  position: relative;
+  color: #6f4a8e;
+  display: inline-block;
+  width: 40%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 4%;
+}
+
+.outer-project-div-right {
+  position: relative;
+  color: #6f4a8e;
+  display: inline-block;
+  width: 40%;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 11%;
+}
+
+.outer-project-div-left:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.outer-project-div-right:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inner-project-title {
+  color: white;
+  margin: 0;
+  text-align: center;
+  background-color: #6f4a8e;
+}
+
+.bottom-project-title {
+  color: white;
+  background-color: #6f4a8e;
+  margin: 0;
+}
+
+.bottom-div-project {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
