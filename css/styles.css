@@ -11,3 +11,9 @@
 .heading-text {
   font-size: 4em;
 }
+
+.top-container {
+  min-height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
