@@ -18,6 +18,8 @@
 .name {
   color: teal;
   padding-top: 7vh;
+  font-family: 'Merienda', cursive;
+  font-size: 3rem;
 }
 
 .name-div {
@@ -28,6 +30,8 @@
   color: white;
   position: absolute;
   top: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
 }
 
 .intro-text-div {
