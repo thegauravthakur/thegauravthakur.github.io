@@ -1,13 +1,39 @@
-.dp {
-  width: 250px;
-  border: 3px solid white;
+.header-div {
+  height: 100vh;
+}
+
+.img-fluid {
+  max-width: 30%;
   border-radius: 100%;
+  border: 3px solid white;
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 1000px) {
+  .dp {
+    max-width: 65%;
+  }
+}
+
+.name {
+  color: teal;
+  padding-top: 7vh;
+  font-family: 'Merienda', cursive;
+  font-size: 3rem;
+}
+
+.name-div {
+  height: 20vh;
 }
 
 .intro-text {
-  font-size: 1.5em;
+  color: white;
+  position: absolute;
+  top: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 1.1rem;
 }
 
-.heading-text {
-  font-size: 4em;
+.intro-text-div {
+  text-align: left;
 }
