@@ -7,12 +7,15 @@
   border-radius: 100%;
   border: 3px solid white;
   margin-top: 10vh;
-  height: 40vh;
 }
 
 @media only screen and (max-width: 1000px) {
   .dp {
     max-width: 65%;
+  }
+
+  .additional-text {
+    margin-top: 30px;
   }
 }
 
@@ -31,11 +34,9 @@
   color: white;
   font-family: 'Merriweather', serif;
   font-size: 1.1rem;
-  position: absolute;
-  bottom: 0;
 }
 
 .intro-text-div {
   text-align: left;
-  height: 20vh;
+  padding-top: 30px;
 }
