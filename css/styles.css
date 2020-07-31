@@ -1,42 +1,43 @@
 .header-div {
-  height: 100vh;
+  height: 92vh;
 }
 
-.img-fluid {
-  max-width: 30%;
-  border-radius: 100%;
-  border: 3px solid white;
-  margin-top: 10vh;
-}
-
-@media only screen and (max-width: 1000px) {
-  .dp {
-    max-width: 65%;
-  }
-
-  .additional-text {
-    margin-top: 30px;
-  }
-}
-
-.name {
-  color: teal;
-  padding-top: 7vh;
-  font-family: 'Merienda', cursive;
-  font-size: 3rem;
+.dp-div {
+  height: 46vh;
+  text-align: center;
 }
 
 .name-div {
-  height: 20vh;
+  height: 23vh;
+  text-align: center;
+  display: table;
 }
 
-.intro-text {
+.name {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Merienda', cursive;
+  font-size: 3rem;
+  color: teal;
+}
+
+.intro-div {
+  height: 23vh;
+  display: table;
+}
+
+.intro {
   color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
   font-family: 'Merriweather', serif;
   font-size: 1.1rem;
 }
 
-.intro-text-div {
-  text-align: left;
-  padding-top: 30px;
+.img-fluid {
+  height: 40vh;
+  margin-top: 6vh;
+  border-radius: 100%;
+  border: 3px solid white;
 }
