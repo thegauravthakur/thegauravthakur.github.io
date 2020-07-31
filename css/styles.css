@@ -41,3 +41,27 @@
   border-radius: 100%;
   border: 3px solid white;
 }
+
+/* .skill-row {
+  left: 50%;
+  transform: translateX(-50%);
+} */
+.skill-heading {
+  font-family: 'Merriweather', serif;
+  color: teal;
+  margin-top: 20px;
+}
+
+.card-title {
+  font-family: 'Merriweather', serif;
+  color: teal;
+}
+
+.card-text {
+  font-family: 'Merriweather', serif;
+}
+
+[class*="col-"] {
+  background-clip: padding-box;
+  border: 10px solid transparent;
+}
